@@ -39,7 +39,7 @@ http://medicaldecathlon.com/
 To download the MMWHS Cardiac dataset, check the website :<br/>
 http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/mmwhs/
  
-All the images were bias corrected using N4 algorithm with a threshold value of 0.001. For more details, refer to the "N4_bias_correction.py" file in scripts.<br/>
+All the images were bias corrected using **N4 algorithm** with a threshold value of 0.001. For more details, refer to the "N4_bias_correction.py" file in scripts.<br/>
 Image and label pairs are re-sampled (to chosen target resolution) and cropped/zero-padded to a fixed size using "create_cropped_imgs.py" file. <br/>
 
 IV) Train the models.<br/>
